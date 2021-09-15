@@ -1,3 +1,4 @@
+
 html, body {
   width: 100%;
   height: 100%;
@@ -11,6 +12,11 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.main h1{
+  color:rgb(49, 49, 231);
+  text-align: center;
 }
 
 .to-do-list {
@@ -31,7 +37,7 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid #cccccc;
+  border: 1px solid #ff59ec;
   border-radius: 25px;
   margin-bottom: 5px;
 }
@@ -46,7 +52,7 @@ html, body {
 
 button {
   font-weight: bold;
-  color: indigo;
+  color:rgb(49, 49, 231);
   /* padding: 0; */
   border: none;
   background: none;
