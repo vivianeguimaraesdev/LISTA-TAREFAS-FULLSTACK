@@ -48,7 +48,7 @@ function App() {
 
 		<div className="main">
 			<div className="to-do-list">
-				<h1>To Do List</h1>
+				<h1>Lista de Tarefas - Blue Ed Tech</h1>
 
 				{itensToShow.map((item) => {
 					return (
